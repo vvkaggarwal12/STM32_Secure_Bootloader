@@ -51,3 +51,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 STM32CubeIDE/Debug
+GPIO/GPIO_EXTI/STM32CubeIDE/Debug/*
+*.launch
