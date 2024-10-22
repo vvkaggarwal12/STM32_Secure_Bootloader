@@ -78,6 +78,7 @@ int main(void)
   /* Infinite loop */
   while (1)
   {
+    verify_firmware(0x08000000, 2048);
 	  if (HAL_OK == COM_Receive(uartbuffer, sizeof(uartbuffer), UART_BYTE_RECEIVE_TIMEOUT)) {
 		  parse_data_received(uartbuffer[0]);
 	  }
